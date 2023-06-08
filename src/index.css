@@ -1,0 +1,30 @@
+.pagination {
+    width: 100% !important;
+  }
+
+.pagination__list.active a {
+    color: #fff !important;
+  }
+
+  .pagination {
+    margin-right: 4px;
+    margin-left: 3px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ddd;
+    border-radius: 50px;
+  }
+  .pagination__list:hover {
+    background-color: #235d92;
+    color: #fff !important;
+  }
+  
+  .pagination__list.active {
+    background-color: #235d92;
+    color: #fff !important;
+  }
